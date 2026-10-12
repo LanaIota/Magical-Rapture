@@ -1,0 +1,33 @@
+:root {
+    --head-bg-color: #fb5593;
+    --cont-bg-color: #fecfe1;
+    --head-text-color: #f8fafc;
+    --text-main: #070403;
+}
+
+/* 全体設定 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body設定 */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--cont-bg-color);
+    color: var(--head-text-color);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* container設定 */
+.container {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
