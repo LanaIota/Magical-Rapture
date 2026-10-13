@@ -27,7 +27,7 @@ body {
 /* container設定 */
 .container {
     width: 100%;
-    max-width: 640px;
+    max-width: 1300px;
     display: flex;
     flex-direction: column;
     gap: 32px;
