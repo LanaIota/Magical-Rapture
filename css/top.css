@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #fb5593;
+    --txt-main: #f8fafc;
+}
+
+header {
+    font-family: 'Note';
+    background-color: var(--bg-color);
+    color: var(--txt-main);
+    width: 100%;
+    height: 30px;
+}
