@@ -5,7 +5,6 @@
 
 header {
     display: block;
-    font-family: 'Note';
     background-color: var(--bg-color);
     color: var(--txt-main);
     width: 100%;
