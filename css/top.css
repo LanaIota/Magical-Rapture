@@ -4,7 +4,7 @@
 }
 
 header {
-    display: block;
+    display: inline-block;
     background-color: var(--bg-color);
     color: var(--txt-main);
     width: 100%;
