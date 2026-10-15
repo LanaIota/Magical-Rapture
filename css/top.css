@@ -60,5 +60,6 @@ header {
     width: 100px;
     height: 100%;
 
-    border: 1px solid var(--head-text-color);
+    border: 3px solid var(--head-text-color);
+    border-radius: 50%;
 }
