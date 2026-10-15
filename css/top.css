@@ -22,33 +22,33 @@ header {
 }
 
 .header-inner > .logo {
+    display: block;
+    flex: 0 0 auto;
     width: auto;
     height: 100%;
 }
 
 .header-inner > .title {
-    justify-content: center;
+    display: flex;
     align-items: center;
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .header-inner > nav {
     display: flex;
     justify-content: flex-end;
 
-    width: 100%;
+    width: auto;
     height: 100%;
 
     align-items: center;
-
-    gap: 20px;
+    flex: 0 0 auto;
+    margin-left: auto;
 }
 
 .header-inner > nav > ul {
     display: flex;
     gap: 20px;
     list-style: none;
-}
-
-.logo {
-    display: flex;
 }
