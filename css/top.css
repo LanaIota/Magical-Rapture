@@ -26,6 +26,11 @@ header {
     height: 100%;
 }
 
+.header-inner > .title {
+    justify-content: center;
+    align-items: center;
+}
+
 .header-inner > nav {
     display: flex;
     justify-content: flex-end;
