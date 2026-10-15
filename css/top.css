@@ -52,3 +52,13 @@ header {
     gap: 20px;
     list-style: none;
 }
+
+.header-inner > nav > ul > li {
+    display: flex;
+    align-items: center;
+
+    width: 200px;
+    height: 100%;
+
+    border: 1px solid var(--head-text-color);
+}
