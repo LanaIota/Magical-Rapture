@@ -22,7 +22,7 @@ header {
 }
 
 .header-inner > .logo {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
