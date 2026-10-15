@@ -1,13 +1,8 @@
-:root {
-    --bg-color: #fb5593;
-    --txt-main: #f8fafc;
-}
-
 header {
     display: flex;
     padding: 0 10px;
-    background-color: var(--bg-color);
-    color: var(--txt-main);
+    background-color: var(--head-bg-color);
+    color: var(--head-text-color);
     width: 100%;
     height: 50px;
 }
@@ -20,7 +15,7 @@ header {
 
     align-items: center;
 
-    border: 1px solid var(--txt-main);
+    border: 1px solid var(--head-text-color);
     border-radius: 10px;
 
     gap: 10px;
