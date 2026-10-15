@@ -22,8 +22,8 @@ header {
 }
 
 .header-inner > .logo {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 
 .header-inner > nav {
