@@ -22,9 +22,10 @@ header {
 
     border: 1px solid var(--txt-main);
     border-radius: 10px;
+
+    gap: 10px;
 }
 
 .logo {
     display: flex;
-    gap: 15px;
 }
