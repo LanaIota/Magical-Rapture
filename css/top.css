@@ -22,6 +22,10 @@ header {
     border-radius: 10px;
 }
 
+.header-inner > div {
+    display: inline-block;
+}
+
 .logo {
     display: flex;
     gap: 15px;
