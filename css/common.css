@@ -22,6 +22,81 @@ body {
     padding: 0;
 }
 
+/* header設定 */
+header {
+    display: flex;
+    padding: 0 10px;
+    background-color: var(--head-bg-color);
+    color: var(--head-text-color);
+    width: 100%;
+    height: 50px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+
+    border: 1px solid var(--head-text-color);
+    border-radius: 10px;
+
+    gap: 10px;
+}
+
+.header-inner > .logo {
+    display: block;
+    flex: 0 0 auto;
+    width: auto;
+    height: 100%;
+}
+
+.header-inner > .title {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.header-inner > nav {
+    display: flex;
+    justify-content: flex-end;
+
+    width: auto;
+    height: 100%;
+
+    align-items: center;
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+
+.header-inner > nav > ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header-inner > nav > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+
+    padding: 4px 12px;
+    white-space: nowrap;
+
+    border: 2px solid var(--head-text-color);
+    border-radius: 999px;
+}
+
+.header-inner > nav > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* container設定 */
 .container {
     width: 100%;
