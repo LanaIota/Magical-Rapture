@@ -22,7 +22,7 @@ header {
     border-radius: 10px;
 }
 
-.header-inner > div {
+.header-inner div {
     display: inline-block;
 }
 
