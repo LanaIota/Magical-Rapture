@@ -121,6 +121,10 @@ header {
     padding: 10px 0;
 }
 
+.container > article > section > h1{
+    border-left: 5px solid var(--head-bg-color);
+}
+
 .container > article > section > ul {
     list-style: disc;
     padding: 20px 1.5em;
