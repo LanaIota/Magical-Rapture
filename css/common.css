@@ -119,3 +119,8 @@ header {
 .container > article > section {
     margin-bottom: 20px;
 }
+
+.container > articale > section > ul {
+    list-style: disc;
+    padding-left: 1rem;
+}
