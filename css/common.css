@@ -118,6 +118,7 @@ header {
 
 .container > article > section {
     margin: 20px 0;
+    padding: 10px 0;
 }
 
 .container > article > section > ul {
