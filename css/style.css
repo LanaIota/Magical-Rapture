@@ -4,7 +4,7 @@
   margin: 10px auto;
 }
 
-.container > article > section > .nwes-list {
+.news-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -12,7 +12,7 @@
   border-radius: 5px;
 }
 
-.container > article > section > .nwes-list > .nwes-item {
+.news-list > .news-item {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -20,10 +20,10 @@
   overflow: hidden;
 }
 
-.container > article > section > .nwes-list > .nwes-item:last-child {
+.news-list > .news-item:last-child {
   border-bottom: none;
 }
 
-.container > article > section > .nwes-list > .nwes-item > .nwes-date + .nwes-title {
+.news-list > .news-item > .news-date + .news-title {
   border: 1px solid #000;
 }
