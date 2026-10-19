@@ -41,9 +41,6 @@ header {
 
     align-items: center;
 
-    border: 1px solid var(--head-text-color);
-    border-radius: 10px;
-
     gap: 10px;
 }
 
