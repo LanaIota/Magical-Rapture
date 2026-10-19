@@ -7,8 +7,8 @@
 .news-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  border: 1px solid #000;
+  background-color: var(--cont-bg-color);
+  border: 1px solid var(--head-bg-color);
   border-radius: 5px;
 }
 
