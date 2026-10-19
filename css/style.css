@@ -14,7 +14,6 @@
 
 .news-list > .news-item {
   display: flex;
-  gap: 10px;
   align-items: center;
   border-bottom: 1px solid #000;
   overflow: hidden;
@@ -24,6 +23,7 @@
   border-bottom: none;
 }
 
-.news-list > .news-item > .news-date+.news-title {
-  border: 1px solid #000;
+.news-list > .news-item > .news-date {
+    color: var(--text-sub);
+    width: 150px;
 }
