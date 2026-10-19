@@ -44,6 +44,7 @@
 
 .news-list > .news-item > .news-date {
   width: 150px;
+  flex-shrink: 0;
   color: var(--news-text-sub);
 }
 
