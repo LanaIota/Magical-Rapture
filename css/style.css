@@ -24,6 +24,6 @@
   border-bottom: none;
 }
 
-.news-list > .news-item > .news-date + .news-title {
+.news-list > .news-item > .news-date+.news-title {
   border: 1px solid #000;
 }
