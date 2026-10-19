@@ -1,0 +1,5 @@
+.container > article > section > img {
+  width: 60%;
+  display: block;
+  margin: 10px auto;
+}
