@@ -35,6 +35,11 @@
   text-decoration: underline var(--news-text-hover);
 }
 
+.news-list > .news-item:hover > .news-title {
+  color: var(--news-text-hover);
+  text-decoration: underline;
+}
+
 .news-list > .news-item:last-child {
   border-bottom: none;
 }
