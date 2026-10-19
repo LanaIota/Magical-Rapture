@@ -29,7 +29,7 @@
 }
 
 .news-list > .news-item:hover{
-  background-color: rgba(241, 129, 194, 0.08);
+  background-color: rgba(241, 129, 192, 0.08);
   color: var(--news-bg-color);
 }
 
