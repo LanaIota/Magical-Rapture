@@ -17,6 +17,7 @@
   gap: 10px;
   align-items: center;
   border-bottom: 1px solid #000;
+  overflow: hidden;
 }
 
 .container > article > section > .nwes-list > .nwes-item:last-child {
