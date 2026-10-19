@@ -28,6 +28,11 @@
   padding: 10px;
 }
 
+.news-list > .news-item:hover{
+  background-color: rgba(f181c2, 0.08);
+  color: var(--news-text-main);
+}
+
 .news-list > .news-item:last-child {
   border-bottom: none;
 }
