@@ -30,7 +30,7 @@
 }
 
 .news-list > .news-item:hover{
-  background-color: rgba(241, 129, 194, 0.2);
+  background-color: rgba(241, 129, 194, 0.3);
   color: var(--news-text-hover);
   text-decoration: underline var(--news-text-hover);
 }
