@@ -121,6 +121,10 @@ header {
     padding: 10px 0;
 }
 
+.container > article > section > p {
+    text-indent: 1.5em;    
+}
+
 .container > article > section > h1{
     border-left: 10px solid var(--head-bg-color);
     padding-left: 20px;
