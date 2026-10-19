@@ -43,6 +43,10 @@
 }
 
 .news-list > .news-item > .news-date {
-  color: var(--news-text-sub);
   width: 150px;
+  color: var(--news-text-sub);
+}
+
+.news-list > .news-item > .news-title {
+  flex: 1;
 }
