@@ -9,7 +9,7 @@
   flex-direction: column;
   background-color: var(--cont-bg-color);
   border: 1px solid var(--head-bg-color);
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 10px 0;
 }
 
