@@ -1,8 +1,8 @@
 :root {
-  --news-bg-color: #f3edf1;
-  --news-border-color: #d5b8c6;
-  --news-text-main: #070403;
-  --news-text-sub: #766775;
+  --news-bg-color: #f25f96;
+  --news-border-color: #c92f70;
+  --news-text-main: #2b0b1c;
+  --news-text-sub: #6b1639;
 }
 
 .container > article > section > img {
