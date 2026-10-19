@@ -29,8 +29,8 @@
 }
 
 .news-list > .news-item:hover{
-  background-color: rgba(241, 129, 194, 0.08);
-  color: var(--news-bg-color);
+  background-color: rgba(241, 129, 194, 0.2);
+  color: var(--news-border-color);
 }
 
 .news-list > .news-item:last-child {
