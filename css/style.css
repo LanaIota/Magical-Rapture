@@ -22,12 +22,18 @@
   margin: 10px 0;
 }
 
+.news-list > .news-item > a, a:visited, a:hover, a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 .news-list > .news-item {
   display: flex;
   align-items: baseline;
   border-bottom: 2px solid var(--news-border-color);
   text-decoration: none;
   padding: 10px;
+  transition: background-color 0.2s ease;
 }
 
 .news-list > .news-item:hover{
