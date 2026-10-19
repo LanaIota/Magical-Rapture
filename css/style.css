@@ -10,6 +10,7 @@
   background-color: var(--cont-bg-color);
   border: 1px solid var(--head-bg-color);
   border-radius: 5px;
+  margin: 10px 0;
 }
 
 .news-list > .news-item {
@@ -17,6 +18,7 @@
   align-items: center;
   border-bottom: 1px solid #000;
   overflow: hidden;
+  padding: 10px;
 }
 
 .news-list > .news-item:last-child {
