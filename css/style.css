@@ -2,6 +2,7 @@
   --news-bg-color: #ffdae8;
   --news-border-color: #f181c2;
   --news-text-main: #070403;
+  --news-text-hover: #fc0fc0;
   --news-text-sub: #86727d;
 }
 
@@ -30,7 +31,8 @@
 
 .news-list > .news-item:hover{
   background-color: rgba(241, 129, 194, 0.2);
-  color: var(--news-border-color);
+  color: var(--news-text-hover);
+  text-decoration: underline var(--news-text-hover);
 }
 
 .news-list > .news-item:last-child {
