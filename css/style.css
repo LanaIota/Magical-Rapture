@@ -3,3 +3,26 @@
   display: block;
   margin: 10px auto;
 }
+
+.container > article > section > .nwes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.container > article > section > .nwes-list > .nwes-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.container > article > section > .nwes-list > .nwes-item:last-child {
+  border-bottom: none;
+}
+
+.container > article > section > .nwes-list > .nwes-item > .nwes-date + .nwes-title {
+  border: 1px solid #000;
+}
