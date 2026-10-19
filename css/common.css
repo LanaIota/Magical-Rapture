@@ -117,8 +117,11 @@ header {
 }
 
 .container > article > section {
-    margin: 20px 0;
-    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.container > article > section:last-child {
+    margin-bottom: 0;
 }
 
 .container > article > section > p {
