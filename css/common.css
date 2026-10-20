@@ -125,7 +125,8 @@ header {
     text-indent: 1.0em;    
 }
 
-.container > article > section > h1,h2 {
+.container > article > section > h1,
+.container > article > section > h2 {
     border-left: 10px solid var(--head-bg-color);
     padding-left: 20px;
 }

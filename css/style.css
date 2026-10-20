@@ -22,7 +22,10 @@
   margin: 10px 0;
 }
 
-.news-list > .news-item > a, a:visited, a:hover, a:active {
+.news-list > .news-item > a,
+.news-list > .news-item > a:visited,
+.news-list > .news-item > a:hover,
+.news-list > .news-item > a:active {
   color: inherit !important;
   text-decoration: none !important;
 }
