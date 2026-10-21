@@ -68,6 +68,7 @@
   display: flex;
   flex-direction: column;
   margin: 10px 0;
+  gap: 20px;
 }
 
 .official-links > .link-item {
@@ -79,4 +80,20 @@
   border: 2px solid var(--card-border-color);
   border-radius: 10px;
   overflow: hidden;
+  padding: 0 10px;
 }
+
+.official-links > .link-item > .link-icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  color: var(--card-accent-color);
+}
+
+.official-links > .link-item > .link-title {
+  flex: 1;
+  color: var(--card-text-main);
+  font-size: 1.2rem;
+}
+
