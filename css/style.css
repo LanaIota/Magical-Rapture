@@ -84,8 +84,6 @@
 }
 
 .official-links > .link-item > * {
-  text-decoration: none;
-  color: inherit;
   display: flex;
   align-items: center;
 }
