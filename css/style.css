@@ -80,6 +80,7 @@
   border-radius: 10px;
   overflow: hidden;
   padding: 0 10px;
+  align-items: center;
 }
 
 .official-links > .link-item > * {
