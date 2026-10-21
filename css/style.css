@@ -76,11 +76,16 @@
   height: 75px;
   display: flex;
   background-color: var(--card-bg-color);
-  align-items: center;
   border: 2px solid var(--card-border-color);
   border-radius: 10px;
   overflow: hidden;
   padding: 0 10px;
+}
+
+.official-links > .link-item > * {
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
 }
 
 .official-links > .link-item > .link-icon {
