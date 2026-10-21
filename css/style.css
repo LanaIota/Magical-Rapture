@@ -86,12 +86,11 @@
 .official-links > .link-item > * {
   text-decoration: none;
   color: inherit;
+  display: flex;
   align-items: center;
 }
 
 .official-links > .link-item > .link-icon {
-  width: auto;
-  height: 100%;
   font-size: 2rem;
   flex-shrink: 0;
   margin-right: 10px;
