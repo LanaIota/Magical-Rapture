@@ -36,7 +36,7 @@
   align-items: baseline;
   border-bottom: 2px solid var(--card-border-color);
   text-decoration: none;
-  padding: 0 20px;
+  padding: 10px 20px;
   transition: background-color 0.1s ease;
 }
 
