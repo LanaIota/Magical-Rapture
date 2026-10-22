@@ -102,3 +102,8 @@
   color: var(--card-text-main);
 }
 
+.official-links > .link-arrow {
+  color: var(--card-text-sub);
+  font-size: 0.9rem;
+}
+
