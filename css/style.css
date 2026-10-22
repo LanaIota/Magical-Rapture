@@ -97,8 +97,8 @@
 }
 
 .official-links > .link-item > .link-title {
+  font-size: 2.5rem;
   flex: 1;
   color: var(--card-text-main);
-  font-size: 2.5rem;
 }
 
