@@ -96,7 +96,7 @@
   color: var(--card-accent-color);
 }
 
-.official-links > .link-item > .link-title {
+.official-links > .link-item > .title {
   font-size: 2.5rem;
   flex: 1;
   color: var(--card-text-main);
