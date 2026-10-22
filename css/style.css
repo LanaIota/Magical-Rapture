@@ -90,7 +90,7 @@
 }
 
 .official-links > .link-item > .link-icon {
-  font-size: 3rem;
+  font-size: 2.5rem;
   flex-shrink: 0;
   margin-right: 10px;
   color: var(--card-accent-color);
