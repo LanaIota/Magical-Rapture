@@ -90,7 +90,7 @@
 }
 
 .official-links > .link-item > .link-icon {
-  font-size: 2rem;
+  font-size: 3%;
   flex-shrink: 0;
   margin-right: 10px;
   color: var(--card-accent-color);
@@ -99,6 +99,6 @@
 .official-links > .link-item > .link-title {
   flex: 1;
   color: var(--card-text-main);
-  font-size: 1.2rem;
+  font-size: 2.5rem;
 }
 
