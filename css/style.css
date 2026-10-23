@@ -71,6 +71,14 @@
   gap: 20px;
 }
 
+.official-links > a,
+.official-links > a:visited,
+.official-links > a:hover,
+.official-links > a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 .official-links > .link-item {
   width: 100%;
   height: 75px;
@@ -107,3 +115,11 @@
   font-size: 0.9rem;
 }
 
+.official-links > .link-item:hover {
+  background-color: var(--card-bg-hover);
+}
+
+.official-links > .link-item:hover > .link-title {
+  color: var(--card-accent-color);
+  text-decoration: underline;
+}
