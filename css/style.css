@@ -4,7 +4,7 @@
   --card-text-main: #070403;
   --card-text-sub: #86727d;
   --card-accent-color: #fc0fc0;
-  --card-bg-hover: rgba(241, 129, 194, 0.3);
+  --card-bg-hover: #fbbfdd;
 }
 
 .container > article > section > img {
