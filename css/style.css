@@ -90,6 +90,7 @@
   padding: 0 20px;
   align-items: center;
   text-decoration: none;
+  transition: transform 0.15s ease, background-color 0.1s ease;
 }
 
 .official-links > .link-item > * {
@@ -117,6 +118,7 @@
 
 .official-links > .link-item:hover {
   background-color: var(--card-bg-hover);
+  transform: translateY(-2px);
 }
 
 .official-links > .link-item:hover > .link-title {
