@@ -3,4 +3,11 @@
     --cont-bg-color: #fecfe1;
     --text-sub: #b294b8;
     --article-bg-color: #fff0fc;
+    
+    --card-bg-color: #ffdae8;
+    --card-border-color: #f181c2;
+    --card-text-main: #070403;
+    --card-text-sub: #86727d;
+    --card-accent-color: #fc0fc0;
+    --card-bg-hover: #fbbfdd;
 }
