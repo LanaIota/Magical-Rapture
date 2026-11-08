@@ -1,0 +1,13 @@
+:root {
+    --head-bg-color: #559dfb;
+    --cont-bg-color: #cfeffe;
+    --text-sub: #94aab8;
+    --article-bg-color: #f0f9ff;
+
+    --card-bg-color: #daf5ff;
+    --card-border-color: #81bff1;
+    --card-text-main: #070403;
+    --card-text-sub: #727c86;
+    --card-accent-color: #0fa5fc;
+    --card-bg-hover: #bfe5fb;
+}
