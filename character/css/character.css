@@ -40,7 +40,6 @@
 
 .char-card:hover {
     transform: scale(1.05);
-    color: var(--card-accent-color);
     background-color: var(--card-bg-hover);
 }
 
@@ -65,4 +64,9 @@
 
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.char-card:hover > .char-name {
+    color: var(--card-accent-color);
+    text-decoration: underline;
 }
