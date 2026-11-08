@@ -24,6 +24,8 @@
     justify-content: center;
 
     transition: transform 0.15s ease-in-out;
+
+    overflow: hidden;
 }
 
 .card-list > a,
