@@ -1,13 +1,14 @@
 :root {
     --head-bg-color: #63fb55;
+    --head-text-color: #10200e;
     --cont-bg-color: #d1fecf;
-    --text-sub: #94b896;
+    --text-sub: #3e6e3a;
     --article-bg-color: #f2fff0;
 
     --card-bg-color: #ddffda;
-    --card-border-color: #85f181;
+    --card-border-color: #62bb58;
     --card-text-main: #070403;
-    --card-text-sub: #758672;
-    --card-accent-color: #17fc0f;
-    --card-bg-hover: #c1fbbf;
+    --card-text-sub: #466341;
+    --card-accent-color: #1f6b22;
+    --card-bg-hover: #b6eeb1;
 }
