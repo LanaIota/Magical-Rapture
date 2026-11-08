@@ -44,6 +44,30 @@
     border-bottom: none;
 }
 
+.news-list > .news-item[hidden] {
+    display: none;
+}
+
+.news-toggle {
+  display: block;
+  margin: 10px auto 0;
+  padding: 8px 16px;
+  border: 1px solid var(--card-border-color);
+  border-radius: 6px;
+  background-color: var(--card-bg-color);
+  color: var(--card-accent-color);
+  font: inherit;
+  cursor: pointer;
+}
+
+.news-toggle:hover {
+  background-color: var(--card-bg-hover);
+}
+
+.news-toggle[hidden] {
+  display: none;
+}
+
 .news-list > .news-item > .news-date {
   width: 150px;
   flex-shrink: 0;
