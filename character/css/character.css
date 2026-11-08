@@ -22,3 +22,7 @@
 
     transition: transform 0.3s ease-in-out;
 }
+
+.char-card:hover {
+    transform: scale(1.05);
+}
