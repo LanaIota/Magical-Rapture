@@ -36,6 +36,7 @@
 
 .char-card:hover {
     transform: scale(1.05);
+    color: var(--card-hover-color);
 }
 
 .char-card > .char-visual {
