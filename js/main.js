@@ -1,6 +1,6 @@
 const newsItems = document.querySelectorAll(".news-list > .news-item");
 const newsToggle = document.querySelector(".news-toggle");
-const visibleNewsCount = 3;
+const visibleNewsCount = 5;
 const hiddenNewsItems = Array.from(newsItems).slice(visibleNewsCount);
 
 if (hiddenNewsItems.length > 0) {
