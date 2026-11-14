@@ -142,3 +142,9 @@ footer > .footer-inner {
 
     color: var(--text-sub);
 }
+
+@media screen and (max-width: 950px) {
+    .header-inner > nav{
+        display: none;
+    }
+}
