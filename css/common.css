@@ -15,11 +15,15 @@ body {
     background-color: var(--cont-bg-color);
     color: var(--text-main);
     line-height: 1.6;
+    margin-top: 50px;
     padding: 0;
 }
 
 /* header設定 */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     padding: 0 10px;
     background-color: var(--head-bg-color);
@@ -142,6 +146,27 @@ footer > .footer-inner {
     height: 50px;
 
     color: var(--text-sub);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--head-bg-color);
+    color: var(--head-text-color);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#back-to-top[hidden] {
+    display: none;
 }
 
 @media screen and (max-width: 950px) {
