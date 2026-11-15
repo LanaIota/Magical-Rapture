@@ -4,7 +4,7 @@ const backToTopButton = document.querySelector("#back-to-top");
 const visibleNewsCount = 5;
 const hiddenNewsItems = Array.from(newsItems).slice(visibleNewsCount);
 
-if (hiddenNewsItems.length > 0) {
+if (newsToggle && hiddenNewsItems.length > 0) {
 	hiddenNewsItems.forEach((item) => {
 		item.hidden = true;
 	});
