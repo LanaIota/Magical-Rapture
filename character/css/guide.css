@@ -26,9 +26,7 @@
     text-indent: 0 !important;
 }
 
-.guide-section-number,
-.profile-note > span,
-.combo-number {
+.profile-note > span {
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -99,9 +97,7 @@
     text-indent: 0 !important;
 }
 
-.guide-section-number,
-.profile-note > span,
-.combo-number {
+.profile-note > span {
     color: var(--card-accent-color);
 }
 
