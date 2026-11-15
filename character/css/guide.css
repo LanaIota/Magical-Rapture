@@ -1,0 +1,250 @@
+.guide-page {
+    display: block;
+}
+
+.guide-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--card-border-color);
+}
+
+.guide-hero-copy h1 {
+    margin: 8px 0 0;
+    border-left: 10px solid var(--head-bg-color);
+    padding-left: 20px;
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: 1.3;
+}
+
+.guide-hero-copy > p {
+    margin-top: 12px;
+    text-indent: 0 !important;
+}
+
+.guide-section-number,
+.profile-note > span,
+.combo-number {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.guide-jump-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.guide-jump-links a {
+    padding: 4px 0;
+    border-bottom: 1px solid var(--card-border-color);
+    color: var(--card-accent-color);
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+.guide-jump-links a:hover {
+    border-bottom-color: var(--card-accent-color);
+    text-decoration: underline;
+}
+
+.guide-portrait {
+    display: flex;
+    min-height: 280px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 8px;
+    background: var(--card-bg-color);
+}
+
+.guide-portrait img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+}
+
+.guide-portrait > span {
+    color: var(--card-text-sub);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.guide-section {
+    scroll-margin-top: 70px;
+}
+
+.guide-section-heading {
+    margin-bottom: 20px;
+}
+
+.guide-section-heading h2 {
+    margin-top: 4px;
+    border-left: 10px solid var(--head-bg-color);
+    padding-left: 20px;
+}
+
+.guide-section-heading > p {
+    margin-top: 8px;
+    color: var(--card-text-sub);
+    text-indent: 0 !important;
+}
+
+.guide-section-number,
+.profile-note > span,
+.combo-number {
+    color: var(--card-accent-color);
+}
+
+.profile-layout {
+    display: grid;
+    grid-template-columns: minmax(180px, 0.65fr) minmax(0, 1.35fr);
+    align-items: start;
+    gap: 20px;
+}
+
+.profile-content {
+    display: grid;
+    gap: 20px;
+}
+
+.profile-note {
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--card-border-color);
+}
+
+.profile-note h3 {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--text-main);
+}
+
+.profile-note p {
+    text-indent: 0 !important;
+}
+
+.move-list {
+    display: grid;
+    gap: 0;
+}
+
+.move-card {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--card-border-color);
+}
+
+.move-card h3 {
+    font-size: 1.05rem;
+}
+
+.move-card p {
+    margin-top: 5px;
+    color: var(--card-text-sub);
+    text-indent: 0 !important;
+}
+
+.move-demo {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    max-height: 320px;
+    aspect-ratio: 16 / 9;
+    margin-top: 12px;
+    object-fit: contain;
+    object-position: left top;
+}
+
+.combo-list {
+    display: grid;
+    gap: 0;
+}
+
+.combo-route {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 26px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid var(--card-border-color);
+    list-style: none;
+}
+
+.combo-route li {
+    position: relative;
+    padding: 14px 0;
+    font-weight: 700;
+}
+
+.combo-route li:not(:last-child)::after {
+    position: absolute;
+    top: 50%;
+    right: -17px;
+    content: "›";
+    color: var(--card-accent-color);
+    font-size: 1.3rem;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 650px) {
+    .guide-hero {
+        gap: 14px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .guide-portrait {
+        min-height: 200px;
+        padding: 8px;
+    }
+
+    .guide-portrait img {
+        height: 150px;
+    }
+
+    .guide-jump-links {
+        gap: 12px;
+    }
+
+    .profile-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .guide-portrait {
+        min-height: 160px;
+    }
+
+    .guide-portrait img {
+        height: 120px;
+    }
+
+    .combo-route {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .combo-route li {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .combo-route li:not(:last-child)::after {
+        position: static;
+        content: "↓";
+        transform: none;
+    }
+}
