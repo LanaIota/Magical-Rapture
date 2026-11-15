@@ -1,5 +1,6 @@
 const newsItems = document.querySelectorAll(".news-list > .news-item");
 const newsToggle = document.querySelector(".news-toggle");
+const backToTopButton = document.querySelector("#back-to-top");
 const visibleNewsCount = 5;
 const hiddenNewsItems = Array.from(newsItems).slice(visibleNewsCount);
 
@@ -19,5 +20,18 @@ if (hiddenNewsItems.length > 0) {
 		newsToggle.textContent = isExpanded
 			? `過去のお知らせを表示（${hiddenNewsItems.length}件）`
 			: "新着情報を閉じる";
+	});
+}
+
+if (backToTopButton) {
+	const updateBackToTopVisibility = () => {
+		backToTopButton.hidden = window.scrollY <= 300;
+	};
+
+	updateBackToTopVisibility();
+	window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+
+	backToTopButton.addEventListener("click", () => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
 	});
 }
